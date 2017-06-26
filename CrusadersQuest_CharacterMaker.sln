@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrusadersQuest_CharacterMaker", "CrusadersQuest_CharacterMaker.csproj", "{31B74F21-47FB-1F97-8956-313AB1540989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrusadersQuest_CharacterMaker.Editor", "CrusadersQuest_CharacterMaker.Editor.csproj", "{49EB5FEA-1EEF-FFEB-68F2-238DD6BED9CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31B74F21-47FB-1F97-8956-313AB1540989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B74F21-47FB-1F97-8956-313AB1540989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B74F21-47FB-1F97-8956-313AB1540989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B74F21-47FB-1F97-8956-313AB1540989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EB5FEA-1EEF-FFEB-68F2-238DD6BED9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EB5FEA-1EEF-FFEB-68F2-238DD6BED9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EB5FEA-1EEF-FFEB-68F2-238DD6BED9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EB5FEA-1EEF-FFEB-68F2-238DD6BED9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
