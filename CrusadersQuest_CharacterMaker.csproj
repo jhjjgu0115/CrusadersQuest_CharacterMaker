@@ -112,6 +112,7 @@
     <Compile Include="Assets\Scripts\ECT\AnimationController.cs" />
     <Compile Include="Assets\Scripts\ECT\TestController.cs" />
     <Compile Include="Assets\Scripts\System\CharacterMakerManager.cs" />
+    <Compile Include="Assets\Scripts\System\CharacterModel.cs" />
     <Compile Include="Assets\Scripts\System\EnumData.cs" />
   </ItemGroup>
   <ItemGroup>
