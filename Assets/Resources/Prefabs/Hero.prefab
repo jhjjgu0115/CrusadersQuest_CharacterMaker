@@ -2057,8 +2057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf149b3cd52ef546a94e8829f2642ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Uria_Skill2
-  motionName: Chain2
+  name: 557269615f536b696c6c32
+  motionName: 436861696e32
   effectList:
   - {fileID: 114468616944796842}
 --- !u!114 &114008787197358238
@@ -2128,6 +2128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a8fd9a6d8447c4da4df24026935d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  caster: {fileID: 0}
+  target: {fileID: 0}
 --- !u!114 &114065916856752940
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2159,8 +2161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf149b3cd52ef546a94e8829f2642ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Uria_Skill1
-  motionName: Chain1
+  name: 557269615f536b696c6c31
+  motionName: 436861696e31
   effectList:
   - {fileID: 114566254367331452}
 --- !u!114 &114087433449031810
@@ -2710,8 +2712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf149b3cd52ef546a94e8829f2642ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Attack1
-  motionName: Attack1
+  name: 41747461636b31
+  motionName: 41747461636b31
   effectList:
   - {fileID: 114637882885218580}
 --- !u!114 &114468616944796842
@@ -2725,6 +2727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a8fd9a6d8447c4da4df24026935d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  caster: {fileID: 0}
+  target: {fileID: 0}
 --- !u!114 &114470959093406452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2772,14 +2776,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd7dcd94b112f6e40887244c9fc77e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   groupTag: 0
+  inBattle: 0
   EnterBattleEffect: []
   ExitBattleEffect: []
+  isDead: 0
   DeadStartEffect: []
   DeadEndEffect: []
   RebirthEffect: []
+  isGroggy: 0
   GroggyStartEffect: []
   GroggyEndEffect: []
+  isNormal: 0
+  enemyRange: 2
+  deltaRange: 2
+  enemyDistance: 0
+  direction: {x: 0, y: 0, z: 0}
+  rigid2D: {fileID: 0}
   isAttacking: 0
   baseAttackList: []
   effectList: []
@@ -2788,6 +2802,9 @@ MonoBehaviour:
   - {fileID: 114081220385853998}
   - {fileID: 114008476497526970}
   - {fileID: 114543662750792142}
+  ChainTrigger1: 0
+  ChainTrigger2: 0
+  ChainTrigger3: 0
 --- !u!114 &114535716135544984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2819,8 +2836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf149b3cd52ef546a94e8829f2642ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Uria_Skill3
-  motionName: Chain3
+  name: 557269615f536b696c6c33
+  motionName: 436861696e33
   effectList:
   - {fileID: 114044121592981684}
 --- !u!114 &114550721988098766
@@ -2854,6 +2871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a8fd9a6d8447c4da4df24026935d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  caster: {fileID: 0}
+  target: {fileID: 0}
 --- !u!114 &114605884430020822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2916,6 +2935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a89232e92a03d1641af539f5b767efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  caster: {fileID: 0}
+  target: {fileID: 0}
   launchAngle: {x: 0, y: 0, z: 0}
   launchVelocity: {x: 2, y: 0, z: 0}
   launchPosition: {fileID: 1307584456595852}

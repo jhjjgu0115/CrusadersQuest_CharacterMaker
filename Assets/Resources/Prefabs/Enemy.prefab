@@ -2378,18 +2378,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd7dcd94b112f6e40887244c9fc77e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   groupTag: 1
+  inBattle: 0
   EnterBattleEffect: []
   ExitBattleEffect: []
+  isDead: 0
   DeadStartEffect: []
   DeadEndEffect: []
   RebirthEffect: []
+  isGroggy: 0
   GroggyStartEffect: []
   GroggyEndEffect: []
+  isNormal: 0
+  enemyRange: 2
+  deltaRange: 2
+  enemyDistance: 0
+  direction: {x: 0, y: 0, z: 0}
+  rigid2D: {fileID: 0}
   isAttacking: 0
   baseAttackList: []
   effectList: []
   skillList: []
+  ChainTrigger1: 0
+  ChainTrigger2: 0
+  ChainTrigger3: 0
 --- !u!114 &114501385890346066
 MonoBehaviour:
   m_ObjectHideFlags: 1
