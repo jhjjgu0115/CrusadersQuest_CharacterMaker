@@ -27,7 +27,12 @@ local.properties
 
 # PDT-specific
 .buildpath
-
+Library
+Temp 
+*. pidb 
+*. unityproj 
+* .. sln 
+*. userprefs
 
 #################
 ## Visual Studio
