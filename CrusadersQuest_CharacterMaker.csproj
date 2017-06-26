@@ -111,6 +111,7 @@
     <Compile Include="Assets\Scripts\ECT\ActingManager.cs" />
     <Compile Include="Assets\Scripts\ECT\AnimationController.cs" />
     <Compile Include="Assets\Scripts\ECT\TestController.cs" />
+    <Compile Include="Assets\Scripts\EnumData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader" />
